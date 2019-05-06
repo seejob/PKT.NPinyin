@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>PKT.NPinyin</RootNamespace>
+    <Authors>PKT</Authors>
+    <Description>.NET Standard 2.1</Description>
+    <Version>1.0.3</Version>
+    <RepositoryUrl>https://github.com/bin58200/PKT.NPinyin</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>
