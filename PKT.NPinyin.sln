@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PKT.NPinyin", "PKT.NPinyin\PKT.NPinyin.csproj", "{45231DA7-233F-4AA8-B53D-846AE374DEF0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FA378835-7E84-4662-8863-9D894B04CC76}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FA378835-7E84-4662-8863-9D894B04CC76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKT.Pinyin.Test", "PKT.Pinyin.Test\PKT.Pinyin.Test.csproj", "{45D8C0DF-70C7-4929-8A90-F12D368C803C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PKT.Pinyin.Test", "PKT.Pinyin.Test\PKT.Pinyin.Test.csproj", "{45D8C0DF-70C7-4929-8A90-F12D368C803C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{937AB2A2-9236-4680-BDC7-4E614957EFBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +30,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{45231DA7-233F-4AA8-B53D-846AE374DEF0} = {937AB2A2-9236-4680-BDC7-4E614957EFBE}
 		{45D8C0DF-70C7-4929-8A90-F12D368C803C} = {FA378835-7E84-4662-8863-9D894B04CC76}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
